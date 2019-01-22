@@ -88,7 +88,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2019/01/19/高中川的猫/" data-id="cjr5mmqwh0002hghw1helvnk8" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2019/01/19/高中川的猫/" data-id="cjr73jxev0001ekhwdsuptrwz" class="article-share-link">Share</a>
       
       
     </footer>
@@ -124,172 +124,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2019/01/19/我的博客/" data-id="cjr5mmqw90000hghw4eglx9j1" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-  
-    <article id="post-教学任务 作业" class="article article-type-post" itemscope="" itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2019/01/19/教学任务 作业/" class="article-date">
-  <time datetime="2019-01-19T11:30:23.000Z" itemprop="datePublished">2019-01-19</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2019/01/19/教学任务 作业/">&#39;教学任务-作业 作品集&#39;</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h3 id="教学任务-作业-作品集"><a href="#教学任务-作业-作品集" class="headerlink" title="教学任务-作业 作品集"></a>教学任务-作业 作品集</h3><ul>
-<li>请求路径前缀</li>
-</ul>
-<p><code>https://test2.fifedu.com/iplat/</code></p>
-<ul>
-<li>请求路径</li>
-</ul>
-<p><code>/bp/teacher/home/teacherTaskList</code></p>
-<ul>
-<li>请求参数</li>
-</ul>
-<p><code>无</code></p>
-<ul>
-<li>说明</li>
-</ul>
-<p><code>作品集   https://test2.fifedu.com/ifass/teacher/record/subCollectionList?taskCollectionId=3b48772dc12443a6bb9bbf1ce725d7cf&amp;classId=2811000226000025852</code></p>
-<p><code>作业       https://test2.fifedu.com/ifass/teacher/task1/taskDetails?tid=c14989492a1849a9aead6312661614cf</code></p>
-<ul>
-<li>返回参数</li>
-</ul>
-<table>
-<thead>
-<tr>
-<th>参数</th>
-<th>类型</th>
-<th>允许为空</th>
-<th>说明</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>status</td>
-<td>String</td>
-<td>NO</td>
-<td>接口操作状态：SUCCESS表示操作成功，ERROR表示操作异常（会在message中说明异常原因）</td>
-</tr>
-<tr>
-<td>message</td>
-<td>String</td>
-<td>NO</td>
-<td>status的辅助字段，用于对status辅助说明</td>
-</tr>
-<tr>
-<td>data</td>
-<td>Array</td>
-<td>YES</td>
-<td>接口返回数据</td>
-</tr>
-<tr>
-<td>&nbsp;&nbsp;taskAndCollectionList</td>
-<td>list</td>
-<td>NO</td>
-<td>作业和作品集列表</td>
-</tr>
-<tr>
-<td>&nbsp;&nbsp;&nbsp;&nbsp;flg</td>
-<td>String</td>
-<td>NO</td>
-<td>作业或者作品集标识（1 作业/2 作品集）</td>
-</tr>
-<tr>
-<td>&nbsp;&nbsp;&nbsp;&nbsp;courseId</td>
-<td>String</td>
-<td>NO</td>
-<td>课程id</td>
-</tr>
-<tr>
-<td>&nbsp;&nbsp;&nbsp;&nbsp;courseName</td>
-<td>String</td>
-<td>NO</td>
-<td>课程名称</td>
-</tr>
-<tr>
-<td>&nbsp;&nbsp;&nbsp;&nbsp;className</td>
-<td>String</td>
-<td>YES</td>
-<td>班级名称</td>
-</tr>
-<tr>
-<td>&nbsp;&nbsp;&nbsp;&nbsp;classId</td>
-<td>String</td>
-<td>YES</td>
-<td>班级id</td>
-</tr>
-<tr>
-<td>&nbsp;&nbsp;&nbsp;&nbsp;taskName</td>
-<td>String</td>
-<td>NO</td>
-<td>作品集名称或者作业名称</td>
-</tr>
-<tr>
-<td>&nbsp;&nbsp;&nbsp;&nbsp;taskId</td>
-<td>String</td>
-<td>NO</td>
-<td>作品集名称或者作业id</td>
-</tr>
-<tr>
-<td>&nbsp;&nbsp;&nbsp;&nbsp;memberId</td>
-<td>String</td>
-<td>YES</td>
-<td>学生id</td>
-</tr>
-<tr>
-<td>&nbsp;&nbsp;&nbsp;&nbsp;userName</td>
-<td>String</td>
-<td>YES</td>
-<td>学生名字</td>
-</tr>
-<tr>
-<td>&nbsp;&nbsp;taskLink</td>
-<td>String</td>
-<td>NO</td>
-<td>作业访问链接  后面拼接参数按照说明格式  （tid对应taskId）</td>
-</tr>
-<tr>
-<td>&nbsp;&nbsp;collectionLink</td>
-<td>String</td>
-<td>NO</td>
-<td>作品集访问链接  后面拼接参数按照说明格式 （taskCollectionId对应taskId ，classId对应classId）</td>
-</tr>
-</tbody>
-</table>
-<ul>
-<li>说明<br>作品集只显示的是学生姓名<br>作业只显示的是班级信息       </li>
-</ul>
-<ul>
-<li>返回值示例</li>
-</ul>
-<figure class="highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line"></span><br><span class="line">  <span class="attr">"status"</span> : <span class="string">"SUCCESS"</span>,</span><br><span class="line"></span><br><span class="line">  <span class="attr">"message"</span> : <span class="literal">null</span>,</span><br><span class="line"></span><br><span class="line">  <span class="attr">"data"</span> : &#123;</span><br><span class="line"></span><br><span class="line">    <span class="attr">"taskAndCollectionList"</span> : [ &#123;</span><br><span class="line"></span><br><span class="line">      <span class="attr">"flg"</span> : <span class="string">"2"</span>,</span><br><span class="line"></span><br><span class="line">      <span class="attr">"courseName"</span> : <span class="string">"沿用"</span>,</span><br><span class="line"></span><br><span class="line">      <span class="attr">"courseId"</span> : <span class="string">"d420c2ba950e4425be92233795016da2"</span>,</span><br><span class="line"></span><br><span class="line">      <span class="attr">"className"</span> : <span class="string">""</span>,</span><br><span class="line"></span><br><span class="line">      <span class="attr">"classId"</span> : <span class="string">""</span>,</span><br><span class="line"></span><br><span class="line">      <span class="attr">"taskName"</span> : <span class="string">"æ±å­"</span>,</span><br><span class="line"></span><br><span class="line">      <span class="attr">"taskId"</span> : <span class="string">"21ef6ac00caf43a49d235a065f5be6d6"</span>,</span><br><span class="line"></span><br><span class="line">      <span class="attr">"memberId"</span> : <span class="string">"16fd4929a7ca4112ae873c6bb5d98ae2"</span>,</span><br><span class="line"></span><br><span class="line">      <span class="attr">"userName"</span> : <span class="string">"BFSUxs240"</span>,</span><br><span class="line"></span><br><span class="line">      <span class="attr">"createTime"</span> : <span class="literal">null</span></span><br><span class="line"></span><br><span class="line">    &#125;, &#123;</span><br><span class="line"></span><br><span class="line">      <span class="attr">"flg"</span> : <span class="string">"2"</span>,</span><br><span class="line"></span><br><span class="line">      <span class="attr">"courseName"</span> : <span class="string">"沿用"</span>,</span><br><span class="line"></span><br><span class="line">      <span class="attr">"courseId"</span> : <span class="string">"d420c2ba950e4425be92233795016da2"</span>,</span><br><span class="line"></span><br><span class="line">      <span class="attr">"className"</span> : <span class="string">""</span>,</span><br><span class="line"></span><br><span class="line">      <span class="attr">"classId"</span> : <span class="string">""</span>,</span><br><span class="line"></span><br><span class="line">      <span class="attr">"taskName"</span> : <span class="string">"æçä½åéååå"</span>,</span><br><span class="line"></span><br><span class="line">      <span class="attr">"taskId"</span> : <span class="string">"2053b69247804aacb7feeff0af347f31"</span>,</span><br><span class="line"></span><br><span class="line">      <span class="attr">"memberId"</span> : <span class="string">"16fd4929a7ca4112ae873c6bb5d98ae2"</span>,</span><br><span class="line"></span><br><span class="line">      <span class="attr">"userName"</span> : <span class="string">"BFSUxs240"</span>,</span><br><span class="line"></span><br><span class="line">      <span class="attr">"createTime"</span> : <span class="literal">null</span></span><br><span class="line"></span><br><span class="line">    &#125;, &#123;</span><br><span class="line"></span><br><span class="line">      <span class="attr">"flg"</span> : <span class="string">"1"</span>,</span><br><span class="line"></span><br><span class="line">      <span class="attr">"courseName"</span> : <span class="string">"ssss"</span>,</span><br><span class="line"></span><br><span class="line">      <span class="attr">"courseId"</span> : <span class="string">"2ef295985fa649d0a040080fdd44d5ac"</span>,</span><br><span class="line"></span><br><span class="line">      <span class="attr">"className"</span> : <span class="string">"201616计科1班"</span>,</span><br><span class="line"></span><br><span class="line">      <span class="attr">"classId"</span> : <span class="string">"2811000226000012966"</span>,</span><br><span class="line"></span><br><span class="line">      <span class="attr">"taskName"</span> : <span class="string">"测试"</span>,</span><br><span class="line"></span><br><span class="line">      <span class="attr">"taskId"</span> : <span class="string">"c8becac615cf44a0b930f56b35ad2c07"</span>,</span><br><span class="line"></span><br><span class="line">      <span class="attr">"memberId"</span> : <span class="string">""</span>,</span><br><span class="line"></span><br><span class="line">      <span class="attr">"userName"</span> : <span class="string">""</span>,</span><br><span class="line"></span><br><span class="line">      <span class="attr">"createTime"</span> : <span class="literal">null</span></span><br><span class="line"></span><br><span class="line">    &#125; ],</span><br><span class="line"></span><br><span class="line">    <span class="attr">"taskLink"</span> : <span class="string">"https://evaluate.fifedu.com/ifass/teacher/record/subCollectionList"</span>,</span><br><span class="line"></span><br><span class="line">    <span class="attr">"collectionLink"</span> : <span class="string">"https://evaluate.fifedu.com/ifass/teacher/task1/taskDetails"</span></span><br><span class="line"></span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2019/01/19/教学任务 作业/" data-id="cjr5mmqwf0001hghw68obpfg6" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2019/01/19/我的博客/" data-id="cjr73jxe20000ekhwd90ymjcj" class="article-share-link">Share</a>
       
       
     </footer>
@@ -335,10 +170,6 @@
         
           <li>
             <a href="/2019/01/19/我的博客/">&#39;我的博客&#39;</a>
-          </li>
-        
-          <li>
-            <a href="/2019/01/19/教学任务 作业/">&#39;教学任务-作业 作品集&#39;</a>
           </li>
         
       </ul>
